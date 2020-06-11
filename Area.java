@@ -1,14 +1,14 @@
 import java.util.*;
 class Area{
 	int length;
-	int bridth;
-	public Area(int l, int b){
-		length = l;
-		bridth = b;
+	int breadth;
+	public Area(int length, int breadth){
+		this.length = length;
+		this.breadth = breadth;
 	}
 	int returnArea()
 	{
-		return (length * bridth);
+		return (length * breadth);
 	}
 	public static void main(String[] args){
 		Scanner sc= new Scanner(System.in);

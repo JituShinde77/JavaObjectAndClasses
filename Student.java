@@ -1,9 +1,9 @@
 class Student{
 	String name;
 	int rollNo;
-	void setStudent(String n, int r){
-		name = n;
-		rollNo = r;
+	void setStudent(String name, int rollNo){
+		this.name = name;
+		this.rollNo = rollNo;
 	}
 	void getStudent()
 	{

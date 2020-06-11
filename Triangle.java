@@ -1,10 +1,10 @@
 class Triangle{
 	float side1, side2, side3;
 
-	void setValues(float s1, float s2, float s3){
-		side1 = s1;
-		side2 = s2;
-		side3 = s3;
+	void setValues(float side1, float side2, float side3){
+		this.side1 = side1;
+		this.side2 = side2;
+		this.side3 = side3;
 	}
 
 	float findPerimeter(){
